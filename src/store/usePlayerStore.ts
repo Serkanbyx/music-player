@@ -48,7 +48,7 @@ export const usePlayerStore = create<PlayerStore>((set, get) => ({
 
   // Track navigation
   nextTrack: () => {
-    const { queue, queueIndex, repeatMode, isShuffled } = get();
+    const { queue, queueIndex, repeatMode } = get();
     
     if (queue.length === 0) return;
 

@@ -14,7 +14,6 @@ export const useAudioPlayer = () => {
     isPlaying,
     volume,
     isMuted,
-    progress,
     setProgress,
     nextTrack,
     pause,
