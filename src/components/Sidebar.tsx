@@ -61,6 +61,28 @@ export const Sidebar = () => {
             <span className="font-medium">Create Playlist</span>
           </button>
         </nav>
+
+        {/* Footer */}
+        <footer className="p-4 text-center text-xs text-gray-500 border-t border-gray-800">
+          Created by{' '}
+          <a
+            href="https://serkanbayraktar.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-500 hover:text-primary-400 transition-colors"
+          >
+            Serkanby
+          </a>
+          {' | '}
+          <a
+            href="https://github.com/Serkanbyx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary-500 hover:text-primary-400 transition-colors"
+          >
+            Github
+          </a>
+        </footer>
       </aside>
 
       {/* Mobile bottom navigation */}

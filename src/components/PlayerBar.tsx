@@ -62,7 +62,7 @@ export const PlayerBar = () => {
   const progressPercent = duration > 0 ? (progress / duration) * 100 : 0;
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 bg-dark-200 border-t border-gray-800 z-50">
+    <div className="fixed bottom-0 left-0 right-0 md:static bg-dark-200 border-t border-gray-800 md:shrink-0 z-50">
       {/* Progress bar - full width at top */}
       <div className="relative h-1 bg-gray-700 md:hidden">
         <div
